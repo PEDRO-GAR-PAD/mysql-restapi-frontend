@@ -1,8 +1,9 @@
-name: Node.js_DockerImage_v1
+name: Node.js_DockerImage_v23
 
 on:
+
   push:
-    branches: [ master ]  # Cambié 'main' a 'master'
+    branches: [ master ] 
   pull_request:
     branches: [ master ]  # Cambié 'main' a 'master'
 
